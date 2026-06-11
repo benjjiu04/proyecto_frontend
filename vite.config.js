@@ -5,21 +5,18 @@ import babel from '@rolldown/plugin-babel'
 // https://vite.dev/config/
 export default defineConfig({
 
-  base: '/proyecto-frontend/', 
-  
+  base: '/proyecto_frontend/', //
+
   plugins: [
     react(),
     babel({ presets: [reactCompilerPreset()] })
   ],
 
-  
-  
-//necesario para Linux o el subsistema WSL para que se actualice constantemente la pagina.
- server: {
-  watch: {
-    usePolling: true,
-    interval: 100
-  }
- } 
+  // Necesario para que WSL (Arch Linux) detecte los cambios en caliente localmente
+  server: {
+    watch: {
+      usePolling: true,
+      interval: 100
+    }
+  } 
 })
-

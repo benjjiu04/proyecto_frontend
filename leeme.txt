@@ -1,2 +1,2 @@
 para iniciar la pagina instale bun y use el comando "bun run dev" en la carpeta src.
-link de la pagina en github: 
+link de la pagina en github: https://github.com/benjjiu04/proyecto_frontend

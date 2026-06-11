@@ -5,7 +5,7 @@ import babel from '@rolldown/plugin-babel'
 // https://vite.dev/config/
 export default defineConfig({
 
-  base: 'https://benjjiu04.github.io/proyecto_frontend/', //
+  base: '/proyecto_frontend/', //
 
   plugins: [
     react(),
